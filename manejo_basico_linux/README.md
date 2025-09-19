@@ -46,43 +46,43 @@
 
     Usa echo $$ para mostrar el PID del proceso actual.
 
-    -
+    -1
 
     Usa echo $PPID para mostrar el PID del proceso padre.
 
-    -
+    -2
 
     Ejecuta pidof systemd y explica el resultado.
 
-    -
+    -3
 
     Abre un programa gráfico (ejemplo: gedit) y usa pidof para obtener sus PID.
 
-    -
+    - 4
 
     Ejecuta ps -e y explica qué significan sus columnas.
 
-    -
+    -5
 
     Ejecuta ps -f y observa la relación entre procesos padre e hijo.
 
-    -
+    -6
 
     Usa ps -axf o pstree para mostrar el árbol de procesos y dibújalo.
 
-    -
+    -7
 
     Ejecuta top o htop y localiza el proceso con mayor uso de CPU.
 
-    -
+    -8
 
     Ejecuta sleep 100 en segundo plano y busca su PID con ps.
 
-    -
+    - 9
 
     Finaliza un proceso con kill y comprueba con ps que ya no está.
 
-    -
+    - 10
 
 
 
@@ -91,7 +91,7 @@
 
     Identifica el PID del proceso init/systemd y explica su función.
     
-    -
+    - 11
     
     Explica qué ocurre con el PPID de un proceso hijo si su padre termina antes.
     
@@ -103,23 +103,23 @@
 
     Haz que un proceso quede en estado suspendido con Ctrl+Z y réanúdalo con fg.
     
-    -
+    - 14
     
     Lanza un proceso en segundo plano con & y obsérvalo con jobs.
     
-    -
+    - 15
 
     Explica la diferencia entre los estados de un proceso: Running, Sleeping, Zombie, Stopped.
     
-    -
+    - 
 
     Usa ps -eo pid,ppid,stat,cmd para mostrar los estados de varios procesos.
     
-    -
+    -17
 
     Ejecuta watch -n 1 ps -e y observa cómo cambian los procesos en tiempo real.
     
-    -
+    -18
     
     Explica la diferencia entre ejecutar un proceso con & y con nohup.
     
@@ -127,5 +127,5 @@
 
     Usa ulimit -a para ver los límites de recursos de procesos en tu sistema.
 
-    -
+    - 20
 
