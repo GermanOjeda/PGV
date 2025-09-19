@@ -46,7 +46,7 @@
 
     Usa echo $$ para mostrar el PID del proceso actual.
 
-    !()[./1.png]
+    ![](./1.png)
 
     Usa echo $PPID para mostrar el PID del proceso padre.
 
